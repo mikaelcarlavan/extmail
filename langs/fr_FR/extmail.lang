@@ -1,0 +1,44 @@
+# Copyright (C) 2017 Mikael Carlavan <contact@mika-carl.fr>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModuleExtMailTagsName'
+ModuleExtMailTagsName = Envoi d'email pour les externes
+# Module description 'ModuleExtMailTagsDesc'
+ModuleExtMailTagsDesc = Module permettant aux utilisateurs externes d'envoyer des emails
+
+#
+AccessNotAllowed = Cette action ne vous est pas autorisée.
+#
+
+#
+# Page À propos
+#
+About = À propos
+ExtMailTagsAbout = À propos du module
+ExtMailTagsAboutPage = Page à propos
+ExtMailTagsAboutDescLong = Ce module a été développé par <a href="http://www.mikael-carlavan.fr">Mikael Carlavan</a> pour <a href="https://www.am-consultant.fr">AM Consultants</a>.
+
+# ChangeLog
+ExtMailTagsChangeLog = ChangeLog
+ExtMailTagsChangeLogVersion = Version
+ExtMailTagsChangeLogDate = Date
+ExtMailTagsChangeLogUpdates = Modification apportées
+ExtMailTagsFirstVersion = Première version
+
+#
