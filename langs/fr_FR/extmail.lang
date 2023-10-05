@@ -17,10 +17,10 @@
 # Générique
 #
 
-# Module label 'ModuleExtMailTagsName'
-ModuleExtMailTagsName = Envoi d'email pour les externes
-# Module description 'ModuleExtMailTagsDesc'
-ModuleExtMailTagsDesc = Module permettant aux utilisateurs externes d'envoyer des emails
+# Module label 'ModuleExtMailName'
+ModuleExtMailName = Envoi d'email pour les externes
+# Module description 'ModuleExtMailDesc'
+ModuleExtMailDesc = Module permettant aux utilisateurs externes d'envoyer des emails
 
 #
 AccessNotAllowed = Cette action ne vous est pas autorisée.
@@ -30,15 +30,15 @@ AccessNotAllowed = Cette action ne vous est pas autorisée.
 # Page À propos
 #
 About = À propos
-ExtMailTagsAbout = À propos du module
-ExtMailTagsAboutPage = Page à propos
-ExtMailTagsAboutDescLong = Ce module a été développé par <a href="http://www.mikael-carlavan.fr">Mikael Carlavan</a> pour <a href="https://www.am-consultant.fr">AM Consultants</a>.
+ExtMailAbout = À propos du module
+ExtMailAboutPage = Page à propos
+ExtMailAboutDescLong = Ce module a été développé par <a href="http://www.mikael-carlavan.fr">Mikael Carlavan</a> pour <a href="https://www.am-consultant.fr">AM Consultants</a>.
 
 # ChangeLog
-ExtMailTagsChangeLog = ChangeLog
-ExtMailTagsChangeLogVersion = Version
-ExtMailTagsChangeLogDate = Date
-ExtMailTagsChangeLogUpdates = Modification apportées
-ExtMailTagsFirstVersion = Première version
+ExtMailChangeLog = ChangeLog
+ExtMailChangeLogVersion = Version
+ExtMailChangeLogDate = Date
+ExtMailChangeLogUpdates = Modification apportées
+ExtMailFirstVersion = Première version
 
 #

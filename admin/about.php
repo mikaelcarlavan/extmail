@@ -47,7 +47,7 @@ if (! $user->admin) {
 }
 
 $versions = array(
-    array('version' => '1.0.0', 'date' => '02/10/2023', 'updates' => $langs->trans('ExtMailTagsFirstVersion')),
+    array('version' => '1.0.0', 'date' => '02/10/2023', 'updates' => $langs->trans('ExtMailFirstVersion')),
 );
 /*
  * View
@@ -55,39 +55,39 @@ $versions = array(
 
 $form = new Form($db);
 
-llxHeader('', $langs->trans('ExtMailTagsAbout'));
+llxHeader('', $langs->trans('ExtMailAbout'));
 
 // Subheader
 $linkback = '<a href="' . DOL_URL_ROOT . '/admin/modules.php">'. $langs->trans("BackToModuleList") . '</a>';
-print load_fiche_titre($langs->trans('ExtMailTagsAbout'), $linkback);
+print load_fiche_titre($langs->trans('ExtMailAbout'), $linkback);
 
 // Configuration header
 $head = extmail_prepare_admin_head();
 dol_fiche_head(
     $head,
     'about',
-    $langs->trans("ModuleExtMailTagsName"),
+    $langs->trans("ModuleExtMailName"),
     0,
     'extmail@extmail'
 );
 
 // About page goes here
-echo $langs->transnoentities("ExtMailTagsAboutPage");
+echo $langs->transnoentities("ExtMailAboutPage");
 
 echo '<br />';
 
 print '<h2>'.$langs->trans("About").'</h2>';
-print $langs->transnoentities("ExtMailTagsAboutDescLong");
+print $langs->transnoentities("ExtMailAboutDescLong");
 
 print '<hr />';
-print '<h2>'.$langs->transnoentities("ExtMailTagsChangeLog").'</h2>';
+print '<h2>'.$langs->transnoentities("ExtMailChangeLog").'</h2>';
 
 
 print '<table class="noborder" width="100%">';
 print '<tr class="liste_titre">';
-print '<td>'.$langs->trans("ExtMailTagsChangeLogVersion").'</td>';
-print '<td>'.$langs->trans("ExtMailTagsChangeLogDate").'</td>';
-print '<td>'.$langs->trans("ExtMailTagsChangeLogUpdates").'</td>';
+print '<td>'.$langs->trans("ExtMailChangeLogVersion").'</td>';
+print '<td>'.$langs->trans("ExtMailChangeLogDate").'</td>';
+print '<td>'.$langs->trans("ExtMailChangeLogUpdates").'</td>';
 print "</tr>\n";
 
 foreach ($versions as $version)

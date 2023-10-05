@@ -34,7 +34,7 @@ include_once DOL_DOCUMENT_ROOT . '/core/modules/DolibarrModules.class.php';
 /**
  *  Description and activation class for module extmail
  */
-class modExtMailTags extends DolibarrModules
+class modExtMail extends DolibarrModules
 {
     // @codingStandardsIgnoreEnd
     /**
@@ -142,6 +142,13 @@ class modExtMailTags extends DolibarrModules
 
         // Permissions
         $this->rights = array();        // Permission array used by this module
+        $r = 0;
+        $this->rights[$r][0] = 6019001;
+        $this->rights[$r][1] = 'Autoriser l\'envoi d\'email';
+        $this->rights[$r][2] = 'r';
+        $this->rights[$r][3] = 0;
+        $this->rights[$r][4] = 'lire';
+        $this->rights[$r][5] = '';
 
         // Main menu entries
         $this->menu = array();
